@@ -5,7 +5,7 @@ def ask_floor_num
 	return floor_num
 end
 
-def pyramid(height)
+def full_pyramid(height)
   height.times {|n|
     print ' ' * (height - n)
     puts '#' * (2 * n + 1)
@@ -13,7 +13,9 @@ def pyramid(height)
 end
 
 def perform
-	puts pyramid(ask_floor_num)
+	full_pyramid(ask_floor_num)
 end
 
 perform
+
+
