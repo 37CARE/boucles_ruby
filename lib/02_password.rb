@@ -22,7 +22,8 @@ def login (user_password) #définit une méthode avec comme paramètre la variab
 	!!! A NE COMMUNIQUER SOUS AUCUN PRETEXTE!!!
 	Voici le lien vers le site qui contient TOUTES les réponses des exos THP EVER
 	Pour tricher c'est par ici : 
-	=> https://www.youtube.com/watch?v=dQw4w9WgXcQ <=" #j'ai mis le lien de Ric Astley pour du troll LOLOLOLOL
+	=> https://www.youtube.com/watch?v=dQw4w9WgXcQ <="
+	
 end
 
 def to_login #on définit la variable qui mixe le tout
