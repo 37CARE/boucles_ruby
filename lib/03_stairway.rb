@@ -2,11 +2,7 @@ level_player = 1
 puts "On va commencer un jeu:
 Tu es au au niveau #{level_player}. Le but est d'arriver au niveau 10!"
 
-=begin
-une méthode pour le jeu
-
-=end
-
+#Méthode de jeu
 def game (level_player)
     while (level_player < 10)
         
@@ -39,6 +35,7 @@ def game (level_player)
     end
 end 
 
+#mtéthode de lancement
 def lance
     level_player = 1
     game (level_player)
