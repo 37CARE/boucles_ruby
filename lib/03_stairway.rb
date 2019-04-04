@@ -10,7 +10,7 @@ une méthode pour le jeu
 def game (level_player)
     while (level_player < 10)
         
-        puts "Si tu veux avancer, clique sur une touche!"
+        puts "Si tu veux avancer, clique sur la touche entrée!"
         print ">"
         gets.chomp
         dice = rand(1...7)
