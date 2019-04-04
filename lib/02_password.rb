@@ -1,15 +1,3 @@
-=begin 
-
-input = "" -->on initialise la variable sur laquelle on va poser notre condition de boucle
-
-  while input != "THP" #On ne sort de la boucle que si input == "THP"
-    puts "Tape THP s'il te plait !"
-    input = gets.chomp
-  end
-
-puts "Merci !"
-=end
-
 # SIGN UP --> l'utilisateur définit un mot de passe
 def ask_password
 	puts "Veuillez définir un mot de passe:"
@@ -29,6 +17,7 @@ def login (user_password)
 		print ">"
 		input = gets.chomp
 	end
+#WELCOME SCREEN --> 
 	puts "Accès autorisé au site top-secret: /!
 	!!! A NE COMMUNIQUER SOUS AUCUN PRETEXTE!!!
 	Voici le lien vers le site qui contient TOUTES les réponses des exos THP EVER
@@ -42,4 +31,3 @@ end
 
 to_login
 
-#WELCOME SCREEN --> 
