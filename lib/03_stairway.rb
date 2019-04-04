@@ -31,9 +31,7 @@ def game (level_player)
         
         end
     end
-end
 
-def win(level_player)
     if (level_player === 10)
         puts "FELICITATIONS !! Vous avez terminé le jeu ! 
         A la prochaine pour toujours plus de fun."
@@ -44,7 +42,6 @@ end
 def lance
     level_player = 1
     game (level_player)
-    win(level_player)
 end
 
 lance
