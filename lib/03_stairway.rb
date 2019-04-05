@@ -42,3 +42,14 @@ def lance
 end
 
 lance
+
+
+
+=begin
+    
+>Faire un boucle 100.times avant initialiser une variabe total = 0
+>dans la méthode de jeu, iplementer un compteur avec un return du compteur quand le jeu arrive au niveau 10
+>faire une somme 100 fois tous les compteurs
+> La somme diviséé par cent 
+    
+end
